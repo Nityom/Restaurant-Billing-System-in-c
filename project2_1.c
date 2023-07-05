@@ -9,6 +9,11 @@ struct items
     int qty;
 };
 
+struct hotel{
+    char hotel_name[20];
+    int hotel_id;
+};
+
 struct orders
 {
     char customer[50];
